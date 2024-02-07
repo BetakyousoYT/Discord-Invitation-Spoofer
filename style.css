@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f8ff;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#form-container, #result-container {
+    background-color: #e6f7ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #0044cc;
+    color: white;
+    cursor: pointer;
+}
+
+#generated-url {
+    background-color: #f9f9f9;
+    cursor: text;
+}
